@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="serviços.html">Serviços</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <header class="section">
+        <h1>Entre em Contato</h1>
+        <p>Estamos aqui para ajudar! Preencha o formulário abaixo para entrar em contato conosco.</p>
+    </header>
+
+    <div class="contact-section section">
+        <h2>Envie-nos uma Mensagem</h2>
+        <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+            </div>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </div>
+
+    <footer id="fundo">
+        <p>&copy; 2024 Salão de Beleza. Todos os direitos reservados. | <a href="index.html">Voltar ao Início</a></p>
+    </footer>
+</body>
+</html>
